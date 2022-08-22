@@ -1,0 +1,24 @@
+.custom_range {
+  top: 50%;
+  width: 5px !important;
+  height: 5px !important;
+  opacity: 1 !important;
+  position: absolute !important;
+  transform: translate(-50%, -50%) !important;
+  border-radius: 50% !important;
+  background-color: #6c768c !important;
+  box-sizing: unset !important;
+}
+
+.custom_range::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px !important;
+  height: 5px !important;
+  transform: translate(-50%, -50%) !important;
+  border-radius: 50% !important;
+  background-color: #212f44 !important;
+  box-sizing: unset !important;
+}
